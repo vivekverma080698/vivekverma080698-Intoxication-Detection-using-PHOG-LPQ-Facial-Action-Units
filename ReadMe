@@ -1,0 +1,18 @@
+
+Requirements
+Create a conda environment using project.yml file
+matlab
+
+Step1:
+Go to DRUNK folder open terminal in this path
+$./process.sh
+
+Step2:
+Go to SOBER folder open terminal in this path
+$./process.sh
+
+Step3:
+Copy the csv files from DRUNK and SOBER folder to Traing 
+Then which ever model you want to train run
+$python "modalname.py" (replace with appropriate name)
+
